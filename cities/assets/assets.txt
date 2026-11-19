@@ -1,0 +1,4 @@
+.gitkeep
+guy.png
+textures/buildings.png
+textures/resources.png
