@@ -1,4 +1,40 @@
 body {
-  background-color: black;
-  color: white;
+		background-color: black;
+	}
+	:root {
+		--surface: #000000;
+	}
+	p { color:white; }
+	pre  { color:white; }
+	span { color:white; }
+	h1 { color:white; }
+	h2 { color:white; }
+	h3 { color:white; }
+	label { color:white; }
+	li { color: white; }
+	a { color: #b980ff; }
+	a:visited { color: #9d72cc; }
+	a:hover { color: #d3adff; }
+	.clicki-img:hover {
+		cursor : pointer;
+	}
+	body { image-rendering: pixelated;}
+
+
+
+.flex-container {
+  display: flex;
+  gap: 15px; /* Adds clean spacing between the boxes without breaking layouts */
+  max-width: 900px;
+  margin: 0 auto 24px;
+  flex-wrap: wrap;
 }
+
+.box {
+  flex: 1 1 220px;
+  padding: 20px;
+  border: 1px solid #00ff99;
+  background: var(--surface);
+  box-shadow: 0 8px 20px rgb(0, 0, 0);
+}
+
