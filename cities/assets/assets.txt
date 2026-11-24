@@ -1,4 +1,6 @@
 .gitkeep
+font.fnt
+font.png
 guy.png
 textures/buildings.png
 textures/resources.png
